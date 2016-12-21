@@ -1,0 +1,7 @@
+fixtures:
+  repositories:
+    puppet-inifile:
+      repo: 'https://github.com/puppetlabs/puppetlabs-inifile.git'
+      ref: '1.6.0'
+  symlinks:
+    agent_noop: "#{source_dir}"

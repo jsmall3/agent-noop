@@ -4,12 +4,12 @@
   "author": "jsmall3",
   "summary": "Control the agent-wide noop setting",
   "license": "Apache-2.0",
-  "source": "https://github.com/jsmall3/agent-noop",
-  "project_page": "https://github.com/jsmall3/agent-noop",
-  "issues_url": "https://github.com/jsmall3/agent-noop/issues",
+  "source": "https://github.com/jsmall3/agent_noop",
+  "project_page": "https://github.com/jsmall3/agent_noop",
+  "issues_url": "https://github.com/jsmall3/agent_noop/issues",
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
-    {"name":"puppetlabs-pe_inifile","version_requirement":">= 1.0.0"}
+    {"name":"puppetlabs-inifile","version_requirement":">= 1.0.0"}
   ],
   "data_provider": null
 }

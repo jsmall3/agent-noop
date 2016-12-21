@@ -5,7 +5,7 @@
 class agent_noop (
   Boolean $noop_mode = true
 ) {
-  pe_ini_setting { 'agent_noop':
+  ini_setting { 'agent_noop':
       ensure  => present,
       path    => '/etc/puppetlabs/puppet/puppet.conf',
       section => 'agent',
