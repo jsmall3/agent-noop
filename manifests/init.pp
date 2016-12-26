@@ -3,7 +3,7 @@
 #
 # @parameter client_noop Sets the noop value 
 class agent_noop (
-  Boolean $noop_mode = true
+  Boolean $noop_mode = false
 ) {
   ini_setting { 'agent_noop':
       ensure  => present,
