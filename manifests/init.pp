@@ -1,7 +1,7 @@
 # agent_noop: control the agent-wide noop state, 
 # even when noop = true
 #
-# @parameter client_noop Sets the noop value 
+# @parameter noop_mode Sets the noop value 
 class agent_noop (
   Boolean $noop_mode = false
 ) {
