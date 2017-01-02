@@ -29,9 +29,9 @@ Requires puppetlabs/inifile
 
 ## Usage
 
-class { 'agent_noop':
-  noop_mode => true,
-}
+    class { 'agent_noop':
+      noop_mode => true,
+    }
 
 
 ## Limitations
