@@ -1,12 +1,23 @@
 {
-  "name": "jsmall3-agent_noop",
-  "version": "0.1.0",
-  "author": "jsmall3",
-  "summary": "Control the agent-wide noop setting",
+  "name": "joshs-agent_noop",
+  "version": "0.1.1",
+  "author": "Josh Small",
+  "summary": "Manage the Puppet agent's noop configuration setting",
   "license": "Apache-2.0",
   "source": "https://github.com/jsmall3/agent_noop",
-  "project_page": "https://github.com/jsmall3/agent_noop",
+  "project_page": "https://forge.puppetlabs.com/joshs/agent_noop",
   "issues_url": "https://github.com/jsmall3/agent_noop/issues",
+  "tags": ["noop", "agent", "puppet.conf"],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease":[ "6.5", "6.6", "6.7", "6.8", "7.0", "7.2", "7.3" ]
+    },
+    {
+      "operatingsystem": "Solaris",
+      "operatingsystemrelease": [ "10_u9", "10_u10" ]
+    }
+  ],
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
     {"name":"puppetlabs-inifile","version_requirement":">= 1.0.0"}
